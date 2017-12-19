@@ -1,0 +1,15 @@
+
+python manage.py runserver
+
+--создание структуры БД на основе класса
+python manage.py makemigration landing
+python manage.py migrate
+
+
+--создание первого пользователя админ
+python manage.py createsuperuser
+
+admin
+qwerty12
+
+
